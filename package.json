@@ -1,0 +1,83 @@
+{
+  "name": "fashioncube",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://quintuslabs.github.io/fashion-cube",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quintuslabs/fashion-cube"
+  },
+  "keywords": [
+    "fashion",
+    "fashion-cube",
+    "e-commerce",
+    "shopping",
+    "Shopping cart"
+  ],
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.9.4",
+    "antd-mask-input": "^0.1.14",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
+    "emotion": "^11.0.0",
+    "flatlist-react": "^1.4.3",
+    "gsap": "^3.5.1",
+    "history": "^5.0.0",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "payment": "^2.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-anime": "^3.0.3",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^16.14.0",
+    "react-icons": "^4.1.0",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.2.0",
+    "react-responsive": "^8.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "react-slick": "^0.27.13",
+    "react-tilt": "^0.1.4",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "start": "^5.1.0",
+    "styled-components": "^5.2.1",
+    "sweetalert": "^2.1.2",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
